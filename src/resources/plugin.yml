@@ -10,12 +10,6 @@ website: backtobedrock.com
 libraries:
   - com.zaxxer:HikariCP:7.0.2
 commands:
-  playtime:
-    description: Check your current playtime and AFK time
-    aliases:
-      - pt
-    permission: rewardslite.playtime
-    usage: /<command> [player]
   rewards:
     description: View your available rewards
     aliases:
